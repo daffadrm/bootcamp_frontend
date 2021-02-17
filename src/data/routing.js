@@ -8,23 +8,37 @@ export const sidemenus = [
     },
     {
         id: 2,
-        path: '/list',
-        name: 'List',
+        path: '/movies',
+        name: 'Movies',
         exact: true,
         component: null
     },
     {
         id: 3,
+        path: '/rating',
+        exact: true,
+        name: 'Rating',
+        component: null
+    },
+    {
+        id: 4,
         path: '/todo',
         exact: true,
         name: 'Todo',
         component: null
     },
     {
-        id: 4,
-        path: '/form',
+        id: 5,
+        path: '/search',
         exact: true,
-        name: 'Form Input',
+        name: 'Search',
+        component: null
+    },
+    {
+        id: 6,
+        path: '/student',
+        exact: true,
+        name: 'Student',
         component: null
     }
 ];

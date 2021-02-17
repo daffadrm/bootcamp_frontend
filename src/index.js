@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import getGenreDesc from './api/apiClient'
 //import MainLayout from './containers/MainLayout';
 
 ReactDOM.render(
@@ -14,3 +15,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+// getGenreDesc();
