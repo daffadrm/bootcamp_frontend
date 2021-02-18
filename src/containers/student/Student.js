@@ -5,6 +5,9 @@ import { alignCenter } from 'react-icons-kit/fa';
 
 
 const Student = (props)=> {
+    const handleUpVote1 = (nim) => {
+        props.onLike(nim);
+    };
     return (
         <div className="kartu" style={{backgroundImage: `url(images/${props.foto})`}}>
             <Link to ="/student">
@@ -14,10 +17,12 @@ const Student = (props)=> {
                     IPK : {props.IPK}<br></br>
                     KOTA : {props.KOTA}<br></br>
                     VOTE : {props.VOTE}<br></br>
+                    SKILL : {props.SKILL}<br></br>
                 </div>
                 </Link> 
                 <alignCenter>
-                    <button> Vote </button>
+                    <button onClick={()=>handleUpVote1(props.NIM)} >Vote
+                    </button>
                 </alignCenter>
         </div>
             

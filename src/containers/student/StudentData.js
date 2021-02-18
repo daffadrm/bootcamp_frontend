@@ -5,6 +5,8 @@ const studentData = [
         IPK : 12,
         KOTA : 'makassar',
         foto: 'anya.jpg',
+        VOTE: 1,
+        SKILL: [1,2]
     },
     {
         NIM: 134,
@@ -12,6 +14,8 @@ const studentData = [
         IPK : 35,
         KOTA : 'jakarta',
         foto: 'karin.jpg',
+        VOTE: 0,
+        SKILL: [3,2]
     },
     {
         NIM: 232,
@@ -19,6 +23,8 @@ const studentData = [
         IPK : 45,
         KOTA : 'lombok',
         foto: 'celsi.jpg',
+        VOTE: 1,
+        SKILL: [1,4]
     },
     {
         NIM: 121,
@@ -26,34 +32,28 @@ const studentData = [
         IPK : 78,
         KOTA : 'surabaya',
         foto: 'danilla.jpg',
+        VOTE: 1,
+        SKILL: [4,2]
+    },
+    
+]
+
+export const skills  =[
+    {
+        id_skills: 1,
+        skills_name: "Java"
     },
     {
-        NIM: 123,
-        NAMA : 'anya',
-        IPK : 12,
-        KOTA : 'makassar',
-        foto: 'anya.jpg',
+        id_skills: 2,
+        skills_name: "Phyton"
     },
     {
-        NIM: 134,
-        NAMA : 'karin',
-        IPK : 35,
-        KOTA : 'jakarta',
-        foto: 'karin.jpg',
+        id_skills: 3,
+        skills_name: "Golang"
     },
     {
-        NIM: 232,
-        NAMA : 'celsi',
-        IPK : 45,
-        KOTA : 'lombok',
-        foto: 'celsi.jpg',
-    },
-    {
-        NIM: 121,
-        NAMA : 'danilla',
-        IPK : 78,
-        KOTA : 'surabaya',
-        foto: 'danilla.jpg',
+        id_skills: 4,
+        skills_name: "Android"
     },
 ]
     
