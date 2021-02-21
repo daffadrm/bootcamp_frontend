@@ -40,7 +40,28 @@ export const sidemenus = [
         exact: true,
         name: 'Student',
         component: null
-    }
+    },
+    {
+        id: 7,
+        path: '/category',
+        exact: true,
+        name: 'Category',
+        component: null
+    },
+    {
+        id: 8,
+        path: '/form',
+        name : 'Form Input',
+        exat: true,
+        component: null
+      },
+      {
+        id: 9,
+        path: '/simple-form',
+        name : 'Simple Form',
+        exat: true,
+        component: null
+      }
 ];
 
 // export default sidemenus;

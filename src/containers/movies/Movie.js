@@ -7,7 +7,7 @@ import './Movie.css'
 const Movie = (props) => {
     return (
         <div className="card" style={{ backgroundImage: `url(images/${props.poster})` }}>
-            <Link to="/movies">
+            <Link to={"/movies/"+props.id}>
                 <div>
                     <div>
                         <span className="quality">{props.rating === 0 ?

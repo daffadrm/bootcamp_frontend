@@ -15,6 +15,9 @@ import RatingList from './rating/RatingList';
 import { Search } from 'react-icons-kit/fa';
 // import getGenreDesc from './api/apiClient';
 import StudentList from './student/StudentList'
+import MovieDesc from './movies/MovieDesc'
+import Category from '../category/Category'
+import SimpleForm from '../Form/SimpleForm'
 
 const MainLayout = () => {
     return (
@@ -28,10 +31,13 @@ const MainLayout = () => {
                 <Route path= "/" component={Home} exact/>
                 <Route path= "/counter" component={Counter} exact/>
                 <Route path= "/movies" component={MovieList} exact/>
+                <Route path= "/movies/:id" component={MovieDesc} exact/>
                 <Route path= "/rating" component={RatingList} exact/>
                 <Route path= "/todo" component={Todo}exact/>
                 <Route path= "/search" component={Search}exact/>
                 <Route path= "/student" component={StudentList}exact/>
+                <Route path= "/category" component={Category}exact/>
+                <Route path= "/simple" component={SimpleForm}exact/>
                 <Route component={Erorr404}/>
                 </Switch>
             </div>
